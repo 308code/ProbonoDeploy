@@ -7,3 +7,4 @@ services:
     build:  ../WellWatcher
   web-price-tracker:
     build: ../FlcSongTracker
+
