@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  api:
+    build: ../ProbonoRest
+  web-well-watcher:
+    build:  ../WellWatcher
+  web-price-tracker:
+    build: ../FlcSongTracker
